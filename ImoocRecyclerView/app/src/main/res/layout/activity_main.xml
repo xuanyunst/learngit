@@ -31,6 +31,12 @@
         android:text="删除一条数据"
         android:onClick="onRemoveDataClick"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试弹框数据"
+        android:onClick="onTestDataClick"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
