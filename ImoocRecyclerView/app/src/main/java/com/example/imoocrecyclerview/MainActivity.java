@@ -99,4 +99,8 @@ public class MainActivity extends AppCompatActivity {
     public void onRemoveDataClick (View v) {
         mAdapter.removeData(1);
     }
+
+    public void onTestDataClick (View v) {
+        Toast.makeText(MainActivity.this,"测试成功",Toast.LENGTH_SHORT).show();
+    }
 }
